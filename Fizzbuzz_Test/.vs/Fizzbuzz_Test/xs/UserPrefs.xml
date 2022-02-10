@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{4755C992-A8EE-40AB-B7A7-673B676C493C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Fizzbuzz_Test/Tests.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Fizzbuzz_Test/Fizzbuzz_Api_Mocks.cs">
     <Files>
       <File FileName="Fizzbuzz_Test/Tests.cs" Line="1" Column="1" />
-      <File FileName="Fizzbuzz_Test/FizzbuzzPage.cs" Line="1" Column="1" />
-      <File FileName="Fizzbuzz_Test/FizzbuzzClass.cs" Line="1" Column="1" />
-      <File FileName="Fizzbuzz_Test/Common.cs" Line="1" Column="1" />
+      <File FileName="Fizzbuzz_Test/FizzbuzzPage.cs" />
+      <File FileName="Fizzbuzz_Test/FizzbuzzClass.cs" />
+      <File FileName="Fizzbuzz_Test/Common.cs" />
+      <File FileName="Fizzbuzz_Test/Fizzbuzz_Api_Mocks.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,14 +14,9 @@
             <Node name="Fizzbuzz_Test" expanded="True">
               <Node name="Dependencies" expanded="True" />
               <Node name="Testdata" expanded="True" />
-              <Node name="Tests.cs" selected="True" />
+              <Node name="Fizzbuzz_Api_Mocks.cs" selected="True" />
             </Node>
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="Fizzbuzz_Test" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>

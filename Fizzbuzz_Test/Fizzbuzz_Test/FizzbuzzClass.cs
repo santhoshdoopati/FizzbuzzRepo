@@ -39,5 +39,31 @@ namespace Fizzbuzz_Test
             }
             return resultString.ToString();
         }
+
+        public string GetBuzzResultOnly(int startingNumber, int limit)
+        {
+            IEnumerable<int> sequence = Enumerable.Range(startingNumber, limit);
+            IList<string> resultString = null;
+            string r = null;
+            int i = 0;
+
+            foreach (int n in sequence)
+            {
+                if (n % 5 == 0)
+                {
+                    r = "buzz,";
+                }
+                else
+                {
+                    r = n.ToString() + ",";
+                }
+
+                resultString[i] = r;
+                i = i + 1;
+            }
+
+            //Assuming Buzz part is not implemented completely
+            return "";
+        }
     }
 }

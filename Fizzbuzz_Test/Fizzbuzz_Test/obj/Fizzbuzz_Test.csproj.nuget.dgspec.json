@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/doopati/Projects/Fizzbuzz_Test/Fizzbuzz_Test/Fizzbuzz_Test.csproj": {}
+    "/Users/doopati/My Files/UST/FizzbuzzRepo/Fizzbuzz_Test/Fizzbuzz_Test/Fizzbuzz_Test.csproj": {}
   },
   "projects": {
-    "/Users/doopati/Projects/Fizzbuzz_Test/Fizzbuzz_Test/Fizzbuzz_Test.csproj": {
+    "/Users/doopati/My Files/UST/FizzbuzzRepo/Fizzbuzz_Test/Fizzbuzz_Test/Fizzbuzz_Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/doopati/Projects/Fizzbuzz_Test/Fizzbuzz_Test/Fizzbuzz_Test.csproj",
+        "projectUniqueName": "/Users/doopati/My Files/UST/FizzbuzzRepo/Fizzbuzz_Test/Fizzbuzz_Test/Fizzbuzz_Test.csproj",
         "projectName": "Fizzbuzz_Test",
-        "projectPath": "/Users/doopati/Projects/Fizzbuzz_Test/Fizzbuzz_Test/Fizzbuzz_Test.csproj",
+        "projectPath": "/Users/doopati/My Files/UST/FizzbuzzRepo/Fizzbuzz_Test/Fizzbuzz_Test/Fizzbuzz_Test.csproj",
         "packagesPath": "/Users/doopati/.nuget/packages/",
-        "outputPath": "/Users/doopati/Projects/Fizzbuzz_Test/Fizzbuzz_Test/obj/",
+        "outputPath": "/Users/doopati/My Files/UST/FizzbuzzRepo/Fizzbuzz_Test/Fizzbuzz_Test/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/doopati/.config/NuGet/NuGet.Config"
@@ -38,9 +38,17 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.TestHost": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
             },
             "NUnit": {
               "target": "Package",
