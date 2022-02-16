@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace Fizzbuzz_Test
 {
-    public class FizzbuzzClass
+    public class ExpectedFizzbuzz
     {
         //Get Fizzbuzz sequence result as per usecase requirement
         public string FizzbuzzResult(int startingNumber, int limit)
@@ -19,13 +19,13 @@ namespace Fizzbuzz_Test
             {
                 if(n % 3 == 0 && n % 5 == 0)
                 {
-                    r = "fizzbuzz,'";
+                    r = "FIZZBUZZ,'";
                 }else if(n % 3 == 0)
                 {
-                    r = "fizz,";
+                    r = "FIZZ,";
                 }else if(n % 5 == 0)
                 {
-                    r = "buzz,";
+                    r = "BUZZ,";
                 }
                 else
                 {
@@ -51,7 +51,7 @@ namespace Fizzbuzz_Test
             {
                 if (n % 5 == 0)
                 {
-                    r = "buzz,";
+                    r = "BUZZ,";
                 }
                 else
                 {
