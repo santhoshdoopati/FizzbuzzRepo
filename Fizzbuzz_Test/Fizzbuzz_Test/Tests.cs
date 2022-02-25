@@ -3,6 +3,8 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support;
 using System;
+using Microsoft.AspNetCore.TestHost;
+using Microsoft.AspNetCore.Hosting;
 
 
 namespace Fizzbuzz_Test
@@ -17,6 +19,8 @@ namespace Fizzbuzz_Test
 
         //Webdriver initialization
         //IWebDriver driver = new ChromeDriver();
+
+         
 
         [SetUp]
         public void Setup()
@@ -34,9 +38,22 @@ namespace Fizzbuzz_Test
         public void VerifyFizzBuzz()
         {
 
-            resultClass.compareResult(Convert.ToInt32(common.getData("startingNumber")),
+            string expected = expectedFizzbuzz.FizzbuzzResult(Convert.ToInt32(common.getData("startingNumber")),
                                         Convert.ToInt32(common.getData("limit")));
+            string actual = resultClass.getResponse().ToString();
 
+            if (string.Compare(actual, expected) == 0)
+            {
+                Assert.Pass();
+            }
+            else if(actual == "null")
+            {
+                Assert.Fail();
+            }
+            else
+            {
+                Assert.Fail();
+            }
         }
 
         [TearDown]
