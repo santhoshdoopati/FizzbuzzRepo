@@ -5,6 +5,10 @@ using OpenQA.Selenium.Support;
 using System;
 using Microsoft.AspNetCore.TestHost;
 using Microsoft.AspNetCore.Hosting;
+using Moq;
+using System.Threading.Tasks;
+
+
 
 
 namespace Fizzbuzz_Test
@@ -42,13 +46,13 @@ namespace Fizzbuzz_Test
                                         Convert.ToInt32(common.getData("limit")));
             string actual = resultClass.getResponse().ToString();
 
-            if (string.Compare(actual, expected) == 0)
+            Mock<CommonFunctions> m = new Mock<CommonFunctions>();
+            m.Setup(t => t.compareResult(expected, actual)).Returns(true);
+            bool flag = m.Object.compareResult(expected,actual);
+
+            if (flag)
             {
                 Assert.Pass();
-            }
-            else if(actual == "null")
-            {
-                Assert.Fail();
             }
             else
             {

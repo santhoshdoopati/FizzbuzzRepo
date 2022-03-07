@@ -48,8 +48,10 @@ namespace Fizzbuzz_Test
         //Get data from Test file
         public string getData(string TagName)
         {
-            string directoryPath = AppDomain.CurrentDomain.BaseDirectory.Replace("\\bin\\Debug", "");
-            string path = directoryPath + "Testdata\\Testdata.xml";
+            //string directoryPath = AppDomain.CurrentDomain.BaseDirectory.Replace("\\bin\\Debug", "");
+            //string path = directoryPath + "Testdata\\Testdata.xml";
+            string directoryPath = AppDomain.CurrentDomain.BaseDirectory.Replace("/bin/Debug/netcoreapp3.1", "");
+            string path = directoryPath + "Testdata/Testdata.xml";
             string text = System.IO.File.ReadAllText(path);
             XmlDocument xmlDocument = new XmlDocument();
             xmlDocument.LoadXml(text);
@@ -61,5 +63,21 @@ namespace Fizzbuzz_Test
             }
             return value;
         }
+
+
+        public bool compareResult(string expected, string actual)
+        {
+            if (string.Compare(actual, expected) == 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+
+
+        }
+
     }
 }

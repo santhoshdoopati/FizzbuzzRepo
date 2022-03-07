@@ -198,3 +198,4 @@
 /Users/doopati/My Files/UST/FizzbuzzRepo/Fizzbuzz_Test/Fizzbuzz_Test/obj/Debug/netcoreapp3.1/Fizzbuzz_Test.dll
 /Users/doopati/My Files/UST/FizzbuzzRepo/Fizzbuzz_Test/Fizzbuzz_Test/obj/Debug/netcoreapp3.1/Fizzbuzz_Test.pdb
 /Users/doopati/My Files/UST/FizzbuzzRepo/Fizzbuzz_Test/Fizzbuzz_Test/obj/Debug/netcoreapp3.1/Fizzbuzz_Test.genruntimeconfig.cache
+/Users/doopati/My Files/UST/FizzbuzzRepo/Fizzbuzz_Test/Fizzbuzz_Test/obj/Debug/netcoreapp3.1/Fizzbuzz_Test.csproj.AssemblyReference.cache

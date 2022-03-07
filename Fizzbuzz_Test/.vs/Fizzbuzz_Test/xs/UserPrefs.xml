@@ -1,21 +1,40 @@
 ﻿<Properties StartupConfiguration="{4755C992-A8EE-40AB-B7A7-673B676C493C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Fizzbuzz_Test/Fizzbuzz_Api_Mocks.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Fizzbuzz_Test/Tests.cs">
     <Files>
-      <File FileName="Fizzbuzz_Test/Tests.cs" Line="43" Column="52" />
+      <File FileName="Fizzbuzz_Test/Tests.cs" Line="50" Column="1" />
       <File FileName="Fizzbuzz_Test/FizzbuzzPage.cs" />
-      <File FileName="Fizzbuzz_Test/Common.cs" Line="1" Column="1" />
-      <File FileName="Fizzbuzz_Test/Fizzbuzz_Api_Mocks.cs" Line="28" Column="1" />
-      <File FileName="Fizzbuzz_Test/Api_calls.cs" Line="32" Column="1" />
-      <File FileName="Fizzbuzz_Test/ExpectedFizzbuzz.cs" Line="45" Column="51" />
+      <File FileName="Fizzbuzz_Test/Common.cs" />
+      <File FileName="Fizzbuzz_Test/Fizzbuzz_Api_Mocks.cs" />
+      <File FileName="Fizzbuzz_Test/ExpectedFizzbuzz.cs" Line="76" Column="1" />
+      <File FileName="Fizzbuzz_Test/TestServer.cs" Line="14" Column="35" />
+      <File FileName="Fizzbuzz_Test/Testdata/Testdata.xml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Fizzbuzz_Test" expanded="True">
             <Node name="Fizzbuzz_Test" expanded="True">
-              <Node name="Dependencies" expanded="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
               <Node name="Testdata" expanded="True" />
-              <Node name="Fizzbuzz_Api_Mocks.cs" selected="True" />
+              <Node name="Tests.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Fizzbuzz_Test" expanded="True">
+            <Node name="Fizzbuzz_Test" expanded="True">
+              <Node name="Fizzbuzz_Test" expanded="True">
+                <Node name="Tests" expanded="True">
+                  <Node name="VerifyFizzBuzz" selected="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
@@ -25,8 +44,16 @@
   <MonoDevelop.Ide.ItemProperties.Fizzbuzz__Test PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Debugger.DebugSourceFolders>
+    <String>/Users/doopati/Library/Caches/VisualStudio/8.0/Symbols/moq/moq4/fc484fb85a28e8cd5d5c51c7e158df2ecc72621d</String>
+  </Debugger.DebugSourceFolders>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/doopati/My Files/UST/FizzbuzzRepo/Fizzbuzz_Test/Fizzbuzz_Test/Tests.cs" relfile="Fizzbuzz_Test/Tests.cs" line="53" column="1" />
+      <Breakpoint file="/Users/doopati/My Files/UST/FizzbuzzRepo/Fizzbuzz_Test/Fizzbuzz_Test/Tests.cs" relfile="Fizzbuzz_Test/Tests.cs" line="51" column="1" />
+      <Breakpoint file="/Users/doopati/My Files/UST/FizzbuzzRepo/Fizzbuzz_Test/Fizzbuzz_Test/ExpectedFizzbuzz.cs" relfile="Fizzbuzz_Test/ExpectedFizzbuzz.cs" line="37" column="1" />
+      <Breakpoint file="/Users/doopati/My Files/UST/FizzbuzzRepo/Fizzbuzz_Test/Fizzbuzz_Test/Tests.cs" relfile="Fizzbuzz_Test/Tests.cs" line="50" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
