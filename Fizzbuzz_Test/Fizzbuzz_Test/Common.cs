@@ -6,6 +6,7 @@ using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium;
 using System.Linq;
 using System.Xml;
+using System.Threading.Tasks;
 
 namespace Fizzbuzz_Test
 {
@@ -64,6 +65,10 @@ namespace Fizzbuzz_Test
             return value;
         }
 
+        public async Task<string> returnValue()
+        {
+            return getData("mockReturnValue");
+        }
 
         public bool compareResult(string expected, string actual)
         {

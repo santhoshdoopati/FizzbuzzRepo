@@ -2,4 +2,5 @@
 <Testdata>
     <startingNumber> 2 </startingNumber>
     <limit> 3 </limit>
+    <mockReturnValue>2,FIZZ</mockReturnValue>
 </Testdata>

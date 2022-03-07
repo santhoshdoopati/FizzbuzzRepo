@@ -36,7 +36,12 @@ namespace Fizzbuzz_Test
             //Wait to load the page completely
             common.WaitForPageLoad(driver, 25);
             */
+
+            
+
         }
+
+        
 
         [Test]
         public void VerifyFizzBuzz()
@@ -44,11 +49,11 @@ namespace Fizzbuzz_Test
 
             string expected = expectedFizzbuzz.FizzbuzzResult(Convert.ToInt32(common.getData("startingNumber")),
                                         Convert.ToInt32(common.getData("limit")));
-            string actual = resultClass.getResponse().ToString();
 
-            Mock<CommonFunctions> m = new Mock<CommonFunctions>();
-            m.Setup(t => t.compareResult(expected, actual)).Returns(true);
-            bool flag = m.Object.compareResult(expected,actual);
+           
+            Mock<ResultClass> mck = new Mock<ResultClass>();
+            mck.Setup(t => t.getResponse()).Returns(common.returnValue());
+            bool flag = common.compareResult(expected, mck.Object.ToString());
 
             if (flag)
             {
